@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "atharvkemkar7/java-app"   // ✅ Docker Hub repo name
+        DOCKER_IMAGE = "atharvk77/java-docker-jenkins-pipeline"   // ✅ Docker Hub repo name
     }
 
     stages {
